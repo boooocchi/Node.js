@@ -1,5 +1,5 @@
 const mySum = require("./test.js");
-const myArr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const myArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const result = mySum(...myArr);
 console.log(result);
 
