@@ -1,0 +1,11 @@
+<%- include('partials/header.ejs') %>
+
+<ul>
+  <% members.forEach(function(member){ %>
+  <li class="member">
+    <a href="/members/<%=member.id %>"><%= member.name %></a>
+  </li>
+  <% }) %>
+</ul>
+
+<%- include('partials/footer.ejs') %>

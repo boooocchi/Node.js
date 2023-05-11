@@ -1,0 +1,32 @@
+<%- include('partials/header.ejs') %>
+
+<div class="login-form">
+  <form action="/" method="post">
+    <div class="form-control">
+      <label for="name">Name</label>
+      <input
+        type="text"
+        name="name"
+        id="username"
+        autocomplete="off"
+        placeholder="Enter your name"
+      />
+    </div>
+    <div class="form-control">
+      <label for="email">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        autocomplete="off"
+        placeholder="Enter your email"
+      />
+    </div>
+    <div class="form-control">
+      <button type="submit" class="btn">Register</button>
+      <a href="/members">members</a>
+    </div>
+  </form>
+</div>
+
+<%- include('partials/footer.ejs') %>
